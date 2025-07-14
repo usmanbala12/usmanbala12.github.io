@@ -7,6 +7,15 @@
   color: "#7393B3"
   url: "https://github.com/usmanbala12/pythononline"
 
+- title: rebateboard
+  description: Forex and crypto rebates platform 
+  year: 2025
+  category: Backend
+  link: ''
+  preview: /assets/img/rebateboard/thumbnail.png
+  color: "#7393B4"
+  url: "https://rebateboard.com"
+
 # - title: Machine Learning Projects
 #   description: Collection of ML projects with detailed instructions and reports.
 #   year: 2024
