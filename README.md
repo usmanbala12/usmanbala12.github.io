@@ -1,4 +1,4 @@
- # Ufakz Personal Website
+ # usmanbala12 Personal Website
 
 [Website Live Link](https://usmanbala12.github.io)
 
