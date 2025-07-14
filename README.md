@@ -1,6 +1,6 @@
  # Ufakz Personal Website
 
-[Website Live Link](https://ufakz.github.io)
+[Website Live Link](https://usmanbala12.github.io)
 
 ## About
 
@@ -19,11 +19,11 @@ To run this project locally:
 
 1. Clone the repository
    ```
-   git clone https://github.com/ufakz/ufakz.github.io.git
+   git clone https://github.com/usmanbala12/usmanbala12.github.io.git
    ```
 2. Navigate to the project directory
    ```
-   cd ufakz.github.io
+   cd usmanbala12.github.io
    ```
 3. Run the command
    ```

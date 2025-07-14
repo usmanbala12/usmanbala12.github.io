@@ -1,0 +1,28 @@
+title: Usman Bala Usman
+domain: usmanbala.github.io
+baseurl: ""
+url: "https://usmanbala.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+social:
+  name: Usman Bala Usman
+  links:
+    - title: linkedin
+      url: https://www.linkedin.com/in/usmanbala
+    - title: github
+      url: https://github.com/usmanbala
+    - title: email
+      url: mailto:usmanxp12@gmail.com
+    # - title: twitter
+    #   url: https://twitter.com/[USERNAME]
+    # - title: substack
+    #   url: https://substack.com/@[USERNAME]
+
+# Build settings
+plugins:
+  - jekyll-sitemap
+
+sass:
+  sass_dir: _scss/
+  style: compressed
+
+exclude:
+  - README.md

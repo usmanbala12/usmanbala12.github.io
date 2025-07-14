@@ -1,0 +1,51 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.4.0 -->
+<title>{{site.title}}</title>
+<meta name="google-site-verification" content="[GOOGLE_SITE_VERIFICATION]" />
+<meta name="keywords" content="[FIRST_NAME], [FULL_NAME], [FULL_NAME] portfolio, [USERNAME]">
+<meta name="author" content="[[FULL_NAME]]">
+<meta name="description" property="og:description" content="[FULL_NAME]">
+<meta name="image" property="og:image" content="/assets/img/[USERNAME]1.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+
+<!-- Twitter Card data -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ page.title | escape }}">
+<meta name="twitter:description" content="{{ page.excerpt | strip_html | strip_newlines | truncate:160 | escape }}">
+<meta name="twitter:image" content="{{ page.twitter_image | default: site.twitter_image | prepend: site.url }}">
+<meta name="twitter:site" content="@ufakz">
+<meta name="twitter:creator" content="@ufakz">
+  
+<!-- Open Graph data -->
+<meta property="og:title" content="{{ page.title | escape }}">
+<meta property="og:description" content="{{ page.excerpt | strip_html | strip_newlines | truncate:160 | escape }}">
+<meta property="og:image" content="{{ page.twitter_image | default: site.twitter_image | prepend: site.url }}">
+<meta property="og:url" content="{{ page.url | relative_url | prepend: site.url }}">
+<meta property="og:type" content="article">
+
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href={{site.baseurl}}/css/style.css> <link rel="icon" href="{{ site.baseurl }}/assets/logo.png">
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<script>
+    function dropdownFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    window.onclick = function (event) {
+        if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+    }
+</script>

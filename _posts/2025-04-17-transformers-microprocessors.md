@@ -1,0 +1,21 @@
+---
+layout: post
+title: "Are Transformers the new Microprocessors?"
+date: 2025-04-17
+categories: blog
+twitter_image: "/assets/twitter.jpeg"
+---
+
+In the early days of November 2022, I gave a talk at Google DevFest Kano on the wonders of AI. My spotlight was on transformer models, exploring their capacity to not only reshape technology but to leave an indelible mark on the world at large. Fast forward a few weeks after that, and the revelation of ChatGPT took the tech world by storm. As of today, it proudly hosts a staggering 400 million weekly active users, a number on a constant ascent. Google introduced Bard, later rebranded as Gemini, followed by a wave of similar breakthroughs from both tech giants and emerging innovators.
+
+To fully appreciate why this might be a pivotal moment in history, let’s revisit a few pages of the past. Human innovation has always been incremental. Inventors experiment with crude ideas and eventually those ideas get refined into full products that change the world. The invention of the rail, cars, airplanes are just a few examples. In our context, perhaps the most notable would be the computer.
+
+The computer or more broadly, “the computing device” is one of the perfect examples of an iterative innovation process. The journey commenced around 5000 years ago with the humble abacus, appearing in ancient Mesopotamia and later refined in China and Greece. Progressing through the centuries, mechanical marvels like Al-Biruni's astrolabe emerged, with earlier, less sophisticated devices having been utilized in ancient Greece over a thousand years prior. A significant milestone in this mechanical progression occurred in the early 17th century with Napier's invention of logarithms, paving the way for Babbage's groundbreaking difference and analytical engines.
+
+Following a period of halted advancement - a typical occurrence in scientific journeys, electricity emerged as a more nuanced avenue for computer development. The ability to switch circuits opened the door to performing logical operations, which are essentially the fundamental building blocks of computation. This breakthrough gave rise to the invention of transistors which are electronic modules capable of controlling current without manual intervention. By combining several of these transistors, you can construct logic gates, which in turn can be assembled into more complex circuits - ultimately forming a microprocessor, the core component of a general-purpose computing system. You can think of this as the “lowest level of low level programming”. Together with the mathematical and algorithmic foundations laid by Ada Lovelace, Alan Turing, and others, this made it possible to execute any computable process, thereby laying the groundwork for the digital world we know today.
+
+One important thing to note throughout this incredible journey of human ingenuity is the increase in abstraction levels. From crude mechanical gears to electronic circuits to culminating in the general-purpose microprocessor. AI has followed a similar path. In the early days, it was formal logic, knowledge representation and heuristic methods until eventually, statistical pattern recognition or machine learning - as it is popularly known, proved promising. Since then, the most impactful recent progress in AI has been based on these statistical approaches.
+
+The transformer architecture mentioned in the beginning of this post moved this up a notch. Rather than absorbing every nuance from the data, models could focus on what truly mattered and then generalize. In the same way transistors enabled computation at scale, transformer models abstract away from feature engineering, allowing for general-purpose learning across domains. This begs the question, are transformers then the microprocessors of AI? Well, that's a question without a definitive answer - at least for now. And in these types of questions lies the charm of innovation. It reintroduces the element of uncertainty about the future and the perpetual curiosity of humanity.
+
+So to you, are transformers the microprocessors of AI?

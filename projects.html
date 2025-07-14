@@ -1,0 +1,46 @@
+---
+layout: default
+title: projects
+---
+
+<section id="projects">
+  <div class="main-container" style="padding-top: 10px">
+    <h2>Projects</h2>
+    <span class="underline"></span>
+    {% assign array = site.data.projectinfo%} {% assign num = 0 %} {% for int in
+    (1..1) %}
+    <div class="row" style="margin: 0 -1rem">
+      {% for i in site.data.projectinfo %} {% if num == 10%} {% break %}
+      {%endif%}
+      <div class="row-content">
+        <a href="{{array[num].link}}">
+          <div class="project-box">
+            <div
+              class="img"
+              style="background: {{array[num].color}} url({{array[num].preview}}) center bottom no-repeat; background-size: 280px"
+            ></div>
+            <div class="body">
+              <div class="heading">{{array[num].title}}</div>
+              <div class="content sub">{{array[num].description}}</div>
+              <span class="underline-d"></span>
+              <div class="info sub">
+                {{array[num].year}} &centerdot; {{array[num].category}}
+              </div>
+              <span class="underline-d"></span>
+              <div class="info sub">
+                <a
+                  target="_blank"
+                  style="text-decoration: underline; color: #268bd2"
+                  href="{{array[num].url}}"
+                  >Link</a
+                >
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+      {% assign num = num | plus: 1 %} {% endfor %}
+    </div>
+    {% endfor %}
+  </div>
+</section>

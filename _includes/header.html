@@ -1,0 +1,34 @@
+<header>
+    <div class="main-container">
+        <div class="name left">
+            <a href="/" style="display: inline-flex; align-items: center; justify-content: flex-start;"><img src="{{ site.baseurl }}/assets/logo.png" alt="" style="max-width: 48px; max-height: 48px; width: auto; height: auto; margin-right: 8px;"></a>
+        </div>
+
+        <div class="seenTopBar" id="myTopnav">
+            <ul class="right nav">
+                <li><a href="/" class="{% if page.title == 'about' %}active{% endif %}">About</a></li>
+                <!--<li> <a href="/resume" class="{% if page.title == 'resume' %}active{% endif %}">Resume</a></li> -->
+                <!-- <li> <a href="/blog" class="{% if page.title == 'blog' %}active{% endif %}">Writing</a></li> -->
+                <li> <a href="/projects" class="{% if page.title == 'projects' %}active{% endif %}">Projects</a></li>
+                <!-- <li> <a href="/books" class="{% if page.title == 'books' %}active{% endif %}">Bookshelf</a></li> -->
+                <li> <a href="mailto:usmanxp12@gmail.com">Contact</a></li>
+            </ul>
+        </div>
+
+
+        <div class="right nav dropdown">
+            <a class="dropbtn" href="javascript:void(0);" onclick="dropdownFunction()">&#9776;</a>
+            <!-- <a class="collapsedBar" href="javascript:void(0);" onclick="myFunction()">&#9776;</a> -->
+
+            <!-- <button onclick="myFunction()" class="dropbtn">Dropdown</button> -->
+            <div id="myDropdown" class="dropdown-content">
+                <a href="/" class="{% if page.title == 'about' %}active{% endif %}">About</a>
+                <!--<a href="/resume" class="{% if page.title == 'resume' %}active{% endif %}">Resume</a> -->
+                <!-- <a href="/blog" class="{% if page.title == 'blog' %}active{% endif %}">Writing</a> -->
+                <a href="/projects" class="{% if page.title == 'projects' %}active{% endif %}">Projects</a>
+                <!-- <a href="/books" class="{% if page.title == 'books' %}active{% endif %}">Bookshelf</a> -->
+                <a href="mailto:usmanxp12@gmail.com">Contact</a>
+            </div>
+        </div>
+    </div>
+</header>

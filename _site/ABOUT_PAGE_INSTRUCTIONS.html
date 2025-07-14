@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.4.0 -->
+<title>Usman Bala Usman</title>
+<meta name="google-site-verification" content="[GOOGLE_SITE_VERIFICATION]" />
+<meta name="keywords" content="[FIRST_NAME], [FULL_NAME], [FULL_NAME] portfolio, [USERNAME]">
+<meta name="author" content="[[FULL_NAME]]">
+<meta name="description" property="og:description" content="[FULL_NAME]">
+<meta name="image" property="og:image" content="/assets/img/[USERNAME]1.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+
+<!-- Twitter Card data -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="About Page Instructions">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="http://localhost:4000">
+<meta name="twitter:site" content="@ufakz">
+<meta name="twitter:creator" content="@ufakz">
+  
+<!-- Open Graph data -->
+<meta property="og:title" content="About Page Instructions">
+<meta property="og:description" content="">
+<meta property="og:image" content="http://localhost:4000">
+<meta property="og:url" content="http://localhost:4000/ABOUT_PAGE_INSTRUCTIONS.html">
+<meta property="og:type" content="article">
+
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href=/css/style.css> <link rel="icon" href="/assets/logo.png">
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<script>
+    function dropdownFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    window.onclick = function (event) {
+        if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+    }
+</script>
+  <body>
+    <header>
+    <div class="main-container">
+        <div class="name left">
+            <a href="/" style="display: inline-flex; align-items: center; justify-content: flex-start;"><img src="/assets/logo.png" alt="" style="max-width: 48px; max-height: 48px; width: auto; height: auto; margin-right: 8px;"></a>
+        </div>
+
+        <div class="seenTopBar" id="myTopnav">
+            <ul class="right nav">
+                <li><a href="/" class="">About</a></li>
+                <!--<li> <a href="/resume" class="">Resume</a></li> -->
+                <!-- <li> <a href="/blog" class="">Writing</a></li> -->
+                <li> <a href="/projects" class="">Projects</a></li>
+                <!-- <li> <a href="/books" class="">Bookshelf</a></li> -->
+                <li> <a href="mailto:usmanxp12@gmail.com">Contact</a></li>
+            </ul>
+        </div>
+
+
+        <div class="right nav dropdown">
+            <a class="dropbtn" href="javascript:void(0);" onclick="dropdownFunction()">&#9776;</a>
+            <!-- <a class="collapsedBar" href="javascript:void(0);" onclick="myFunction()">&#9776;</a> -->
+
+            <!-- <button onclick="myFunction()" class="dropbtn">Dropdown</button> -->
+            <div id="myDropdown" class="dropdown-content">
+                <a href="/" class="">About</a>
+                <!--<a href="/resume" class="">Resume</a> -->
+                <!-- <a href="/blog" class="">Writing</a> -->
+                <a href="/projects" class="">Projects</a>
+                <!-- <a href="/books" class="">Bookshelf</a> -->
+                <a href="mailto:usmanxp12@gmail.com">Contact</a>
+            </div>
+        </div>
+    </div>
+</header> <h1 id="about-page-instructions">About Page Instructions</h1>
+
+<p>This guide will help you customize the <code class="language-plaintext highlighter-rouge">_includes/about.html</code> file for your personal website.</p>
+
+<h2 id="overview">Overview</h2>
+
+<p>The about page is divided into two main sections:</p>
+<ul>
+  <li><strong>Left Section</strong>: Your profile information, bio, and professional links</li>
+  <li><strong>Right Section</strong>: Your recent news and achievements</li>
+</ul>
+
+<h2 id="how-to-fill-out-each-section">How to Fill Out Each Section</h2>
+
+<h3 id="1-profile-image">1. Profile Image</h3>
+<p><strong>Location</strong>: Line 12 in <code class="language-plaintext highlighter-rouge">_includes/about.html</code></p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/assets/img/me/[your-image-filename]"</span> <span class="na">alt=</span><span class="s">"[your name] profile image"</span> <span class="nt">/&gt;</span>
+</code></pre></div></div>
+
+<p><strong>Instructions</strong>:</p>
+<ul>
+  <li>Replace <code class="language-plaintext highlighter-rouge">[your-image-filename]</code> with your actual image filename (e.g., <code class="language-plaintext highlighter-rouge">profile.jpg</code>)</li>
+  <li>Place your profile image in the <code class="language-plaintext highlighter-rouge">/assets/img/me/</code> directory</li>
+  <li>Update the <code class="language-plaintext highlighter-rouge">alt</code> text with your name for accessibility</li>
+</ul>
+
+<h3 id="2-name-and-tagline">2. Name and Tagline</h3>
+<p><strong>Location</strong>: Lines 17-20</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;h1&gt;</span>[Your Full Name]<span class="nt">&lt;/h1&gt;</span>
+<span class="nt">&lt;h3&gt;</span>[Your Role]. [Your Focus]. [Your Passion].<span class="nt">&lt;/h3&gt;</span>
+</code></pre></div></div>
+
+<p><strong>Instructions</strong>:</p>
+<ul>
+  <li>Replace <code class="language-plaintext highlighter-rouge">[Your Full Name]</code> with your complete name</li>
+  <li>Replace the three-part tagline with 3-4 words describing you</li>
+  <li><strong>Examples</strong>:
+    <ul>
+      <li>“Builder. Researcher. Explorer.”</li>
+      <li>“Developer. Designer. Creator.”</li>
+      <li>“Engineer. Innovator. Leader.”</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="3-bio-section">3. Bio Section</h3>
+<p><strong>Location</strong>: Lines 22-48</p>
+
+<p><strong>Instructions</strong>:</p>
+<ul>
+  <li><strong>Current Status</strong>: Describe what you’re currently doing (job, studies, project)</li>
+  <li><strong>Previous Experience</strong>: Mention your most relevant past experience</li>
+  <li><strong>Interests</strong>: Share what you’re passionate about</li>
+  <li><strong>Links</strong>: Include relevant organization/company URLs</li>
+</ul>
+
+<p><strong>Bio Template</strong>:</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Currently [your current role/studies] at 
+<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"[organization-url]"</span> <span class="na">target=</span><span class="s">"_blank"</span> <span class="na">style=</span><span class="s">"text-decoration: underline; color: #268bd2"</span><span class="nt">&gt;</span>[Organization Name]<span class="nt">&lt;/a&gt;</span>. 
+
+Previously, [previous role] at 
+<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"[company-url]"</span> <span class="na">target=</span><span class="s">"_blank"</span> <span class="na">style=</span><span class="s">"text-decoration: underline; color: #268bd2"</span><span class="nt">&gt;</span>[Company Name]<span class="nt">&lt;/a&gt;</span>. 
+
+Passionate about [your interests/focus areas].
+</code></pre></div></div>
+
+<h3 id="4-external-links">4. External Links</h3>
+<p><strong>Location</strong>: Lines 32-42</p>
+
+<p><strong>Instructions</strong>:</p>
+<ul>
+  <li>Update the blog link if your blog is external</li>
+  <li>Replace <code class="language-plaintext highlighter-rouge">[your-external-blog-url]</code> with your external blog/platform URL</li>
+  <li>Replace <code class="language-plaintext highlighter-rouge">[External Platform Name]</code> with the platform name (e.g., “Medium”, “Substack”)</li>
+  <li>Add context about what type of content you share there</li>
+</ul>
+
+<h3 id="5-cvresume-download">5. CV/Resume Download</h3>
+<p><strong>Location</strong>: Lines 52-58</p>
+
+<p><strong>Instructions</strong>:</p>
+<ul>
+  <li>Replace <code class="language-plaintext highlighter-rouge">[Your_CV_Filename].pdf</code> with your actual CV filename</li>
+  <li>Place your CV file in the <code class="language-plaintext highlighter-rouge">/assets/</code> directory</li>
+  <li>Make sure the filename matches exactly</li>
+</ul>
+
+<h3 id="6-professional-profiles">6. Professional Profiles</h3>
+<p><strong>Location</strong>: Line 61</p>
+
+<p><strong>Instructions</strong>:</p>
+<ul>
+  <li>Replace <code class="language-plaintext highlighter-rouge">[your-credly-url]</code> with your actual profile URL</li>
+  <li>Replace <code class="language-plaintext highlighter-rouge">[Platform Name]</code> with the platform name (e.g., “Credly”, “LinkedIn”)</li>
+  <li>This section is optional - remove if not needed</li>
+</ul>
+
+<h3 id="7-picture-context-optional">7. Picture Context (Optional)</h3>
+<p><strong>Location</strong>: Lines 63-70</p>
+
+<p><strong>Instructions</strong>:</p>
+<ul>
+  <li>Describe where/when your profile photo was taken</li>
+  <li>Add any interesting context about the location</li>
+  <li>Link to relevant institutions or locations</li>
+  <li>This section is optional - remove if not needed</li>
+</ul>
+
+<h2 id="recent-news-section">Recent News Section</h2>
+
+<h3 id="adding-news-items">Adding News Items</h3>
+
+<p>Each news item follows this structure:</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"news-item"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;h3&gt;&lt;span</span> <span class="na">class=</span><span class="s">"news-date"</span><span class="nt">&gt;</span>[Month DD, YYYY]<span class="nt">&lt;/span&gt;&lt;/h3&gt;</span>
+  <span class="nt">&lt;p&gt;</span>
+    [Your achievement/news description]
+    <span class="nt">&lt;a</span>
+      <span class="na">target=</span><span class="s">"_blank"</span>
+      <span class="na">style=</span><span class="s">"text-decoration: underline; color: #268bd2"</span>
+      <span class="na">href=</span><span class="s">"[relevant-url]"</span>
+    <span class="nt">&gt;</span>
+      [Link Text]<span class="nt">&lt;/a</span>
+    <span class="nt">&gt;</span>
+    [Additional context if needed].
+  <span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<h3 id="news-item-types--examples">News Item Types &amp; Examples</h3>
+
+<h4 id="1-certificationsachievements">1. Certifications/Achievements</h4>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"news-item"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;h3&gt;&lt;span</span> <span class="na">class=</span><span class="s">"news-date"</span><span class="nt">&gt;</span>Jun 14, 2025<span class="nt">&lt;/span&gt;&lt;/h3&gt;</span>
+  <span class="nt">&lt;p&gt;</span>
+    Excited to share that I've officially become a 
+    <span class="nt">&lt;a</span> <span class="na">target=</span><span class="s">"_blank"</span> <span class="na">style=</span><span class="s">"text-decoration: underline; color: #268bd2"</span> <span class="na">href=</span><span class="s">"[certification-url]"</span><span class="nt">&gt;</span>
+      [Certification Name]<span class="nt">&lt;/a&gt;</span>
+  <span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<h4 id="2-program-acceptances">2. Program Acceptances</h4>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"news-item"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;h3&gt;&lt;span</span> <span class="na">class=</span><span class="s">"news-date"</span><span class="nt">&gt;</span>Apr 17, 2025<span class="nt">&lt;/span&gt;&lt;/h3&gt;</span>
+  <span class="nt">&lt;p&gt;</span>
+    Grateful to be accepted for the 2025
+    <span class="nt">&lt;a</span> <span class="na">target=</span><span class="s">"_blank"</span> <span class="na">style=</span><span class="s">"text-decoration: underline; color: #268bd2"</span> <span class="na">href=</span><span class="s">"[program-url]"</span><span class="nt">&gt;</span>
+      [Program Name]<span class="nt">&lt;/a&gt;</span>
+    in [Location].
+  <span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<h4 id="3-projectspublications">3. Projects/Publications</h4>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"news-item"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;h3&gt;&lt;span</span> <span class="na">class=</span><span class="s">"news-date"</span><span class="nt">&gt;</span>Feb 25, 2024<span class="nt">&lt;/span&gt;&lt;/h3&gt;</span>
+  <span class="nt">&lt;p&gt;</span>
+    Grateful to have presented our project on
+    <span class="nt">&lt;a</span> <span class="na">target=</span><span class="s">"_blank"</span> <span class="na">style=</span><span class="s">"text-decoration: underline; color: #268bd2"</span> <span class="na">href=</span><span class="s">"[project-url]"</span><span class="nt">&gt;</span>
+      [Project Title]<span class="nt">&lt;/a&gt;</span>
+    at [Event/Institution Name].
+  <span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<h4 id="4-speakingworkshops">4. Speaking/Workshops</h4>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"news-item"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;h3&gt;&lt;span</span> <span class="na">class=</span><span class="s">"news-date"</span><span class="nt">&gt;</span>Nov 8, 2021<span class="nt">&lt;/span&gt;&lt;/h3&gt;</span>
+  <span class="nt">&lt;p&gt;</span>
+    Delivered a workshop on  
+    <span class="nt">&lt;a</span> <span class="na">target=</span><span class="s">"_blank"</span> <span class="na">style=</span><span class="s">"text-decoration: underline; color: #268bd2"</span> <span class="na">href=</span><span class="s">"[video-url]"</span><span class="nt">&gt;</span>
+      "[Workshop Title]"<span class="nt">&lt;/a&gt;</span>
+    to [audience] at [location]. 
+    <span class="nt">&lt;a</span> <span class="na">target=</span><span class="s">"_blank"</span> <span class="na">style=</span><span class="s">"text-decoration: underline; color: #268bd2"</span> <span class="na">href=</span><span class="s">"[additional-link]"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;em&gt;</span> [Additional Resource] <span class="nt">&lt;/em&gt;&lt;/a&gt;</span>
+  <span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<h3 id="news-item-guidelines">News Item Guidelines</h3>
+
+<ol>
+  <li><strong>Date Format</strong>: Use “Month DD, YYYY” format (e.g., “Jun 14, 2025”)</li>
+  <li><strong>Order</strong>: Keep most recent items at the top</li>
+  <li><strong>Tone</strong>: Use positive, professional language (Excited, Grateful, Thrilled, Delighted)</li>
+  <li><strong>Links</strong>: Always include relevant links when available</li>
+  <li><strong>Length</strong>: Keep descriptions concise but informative</li>
+</ol>
+
+<h2 id="customization-tips">Customization Tips</h2>
+
+<h3 id="colors">Colors</h3>
+<p>The current theme uses <code class="language-plaintext highlighter-rouge">#268bd2</code> for link colors. You can change this throughout the file if needed.</p>
+
+<h3 id="styling">Styling</h3>
+<ul>
+  <li>Links have <code class="language-plaintext highlighter-rouge">text-decoration: underline</code> and open in new tabs (<code class="language-plaintext highlighter-rouge">target="_blank"</code>)</li>
+  <li>Maintain consistent spacing and formatting</li>
+  <li>Use <code class="language-plaintext highlighter-rouge">&lt;em&gt;</code> tags for emphasis on secondary links</li>
+</ul>
+
+<h3 id="content-strategy">Content Strategy</h3>
+<ul>
+  <li>Keep your bio concise but informative</li>
+  <li>Highlight your most significant achievements in recent news</li>
+  <li>Update regularly to keep content fresh</li>
+  <li>Remove example content once you’ve added your own</li>
+</ul>
+
+<h2 id="file-structure">File Structure</h2>
+
+<p>After customization, your directory should look like:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/assets/
+  ├── img/me/[your-image-filename]
+  └── [Your_CV_Filename].pdf
+_includes/
+  └── about.html (customized)
+</code></pre></div></div>
+
+<h2 id="next-steps">Next Steps</h2>
+
+<ol>
+  <li>Replace all placeholder text with your information</li>
+  <li>Add your profile image and CV to the assets directory</li>
+  <li>Test all links to ensure they work correctly</li>
+  <li>Preview your site locally to check formatting</li>
+  <li>Remove this instruction file once you’re done</li>
+</ol>
+
+<p>Remember to remove the example news items and replace them with your actual achievements!</p>
+ <footer>
+    <div class="main-container">
+        <div class="row-float">
+            <span class="right links">
+                <a target="_blank" href="https://www.linkedin.com/in/usmanbala"><i class="icon-linkedin"></i></a>
+                <a target="_blank" href="https://github.com/usmanbala"><i class="icon-github2"></i></a>
+                <a target="_blank" href="mailto:usmanxp12@gmail.com"><i class="icon-gmail"></i></a>
+                <!-- <a target="_blank" href=""><i class="icon-rss"></i></a>
+                <a target="_blank" href=""><i class="icon-twitter"></i></a> -->
+                <!-- <a target="_blank" href="https://www.linkedin.com/in/usmanbala"><i class="icon-instagram"></i></a> -->
+            </span>
+            <span class="left sub">Usman Bala Usman &copy; 2025</span>
+        </div>
+    </div>
+</footer>
+
+  </body>
+</html>

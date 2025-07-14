@@ -1,0 +1,26 @@
+- title: pythononline
+  description: Web based python learning platform with an integrated interpreter.
+  year: 2024
+  category: Fullstack
+  link: ''
+  preview: /assets/img/pythononline/thumbnail.png
+  color: "#7393B3"
+  url: "https://github.com/usmanbala12/pythononline"
+
+# - title: Machine Learning Projects
+#   description: Collection of ML projects with detailed instructions and reports.
+#   year: 2024
+#   category: Machine Learning, CV
+#   link: ''
+#   preview: /assets/img/ml/thumbnail.png
+#   color: "#ECA193"
+#   url: "https://github.com/ufakz/machine-learning-projects"
+
+# - title: RobGarden
+#   description: Reactive and predictive control of a differential drive mobile robot in a garden environment.
+#   year: 2024
+#   category: Robotics, Control
+#   link: ''
+#   preview: /assets/img/robot_garden/thumbnail.png
+#   color: "#FFFFFF"
+#   url: "https://github.com/ufakz/robot_garden"
