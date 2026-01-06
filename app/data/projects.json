@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Python Online",
+    "description": "A web-based Python learning platform with interactive coding exercises, real-time code execution, and progress tracking for aspiring developers.",
+    "image": "/images/python-online.jpeg",
+    "imageAlt": "Python code on a screen with colorful syntax highlighting",
+    "year": "2024",
+    "techStack": "Fullstack",
+    "link": "https://github.com/usmanbala12/pythononline"
+  },
+  {
+    "title": "PaperMind",
+    "description": "A document digitization application with PDF to searchable PDF conversion, OCR, and Intelligent file naming based on content and cloud storage integration.",
+    "image": "/images/papermind.jpeg",
+    "imageAlt": "Document management project",
+    "year": "2024",
+    "techStack": ".Net Windows",
+    "link": "https://github.com/usmanbala12/papermind"
+  },
+  {
+    "title": "Sentiment Analysis",
+    "description": "A sentiment analysis logistics regression model trained on the twitter sentiment140 dataset with a streamlit User Interface for easy access",
+    "image": "/images/sentiment-analysis.png",
+    "imageAlt": "Sentiment Analysis Project",
+    "year": "2025",
+    "techStack": "Machine Learning",
+    "link": "https://github.com/usmanbala12/sentiment-analysis"
+  },
+  {
+    "title": "Auto MPG Predictor",
+    "description": "A Machine Learning model to predict the MPG of a car based on its features, trained on the Auto MPG dataset.",
+    "image": "/images/auto-mpg.png",
+    "imageAlt": "Auto MPG Predictor Project",
+    "year": "2025",
+    "techStack": "Machine Learning",
+    "link": "https://github.com/usmanbala12/auto-mpg-predictor"
+  }
+]
