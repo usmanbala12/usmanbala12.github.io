@@ -20,7 +20,7 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
 
   app: {
-    baseURL: '/usmanbala12.github.io/',
+    baseURL: '/',
     buildAssetsDir: 'assets',
     head: {
       title: 'UB | Personal Website',
